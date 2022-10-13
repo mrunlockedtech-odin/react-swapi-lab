@@ -45,8 +45,23 @@
   background-color: #323539;
   color: white;
 }
+.ship-div {
+  border: 1px solid black;
+  width:fit-content;
+  display: grid;
+  justify-items:left;
+  padding: 10px 45px;
+  margin:25% auto;
+  border-radius: 5px;
+  text-align: left;
+  background-color: #323539;
+  color: white;
+}
 
 .App-link {
+  color: #61dafb;
+}
+a {
   color: #61dafb;
 }
 
