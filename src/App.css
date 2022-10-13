@@ -24,6 +24,28 @@
   color: white;
 }
 
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: clamp(400px, 80vw, 1200px);
+  margin: auto;
+  justify-content: center;
+}
+
+.class-div {
+  border: 1px solid black;
+  width: 125px;
+  display: grid;
+  justify-items: center;
+  padding: 15px;
+  margin: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #323539;
+  color: white;
+}
+
 .App-link {
   color: #61dafb;
 }
