@@ -29,8 +29,8 @@ const AllShips = () => {
     <>
       {starShips.length ? <>
         <div className="nav-buttons">
-          <button onClick={handlePrevButton} disabled={!shipData.previous}>Prev</button>
-          <button onClick={handleNextButton} disabled={!shipData.next}>Next</button>
+          <button onClick={handlePrevButton}>Prev</button>
+          <button onClick={handleNextButton}>Next</button>
         </div>
         <div className="nav-buttons">
         <p>Page: {pageNumber} of {Math.ceil(shipData.count/10)}</p>
