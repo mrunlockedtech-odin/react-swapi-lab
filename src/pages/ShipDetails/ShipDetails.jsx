@@ -1,4 +1,4 @@
-import { useState, useEvent, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { getDetails } from "../../services/sw-api";
 

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -31,6 +32,19 @@
   width: clamp(400px, 80vw, 1200px);
   margin: auto;
   justify-content: center;
+}
+.nav-buttons {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+}
+.nav-buttons > * {
+  margin: 5px;
+  background-color: #282c34;
+  color: white;
+  border: 0px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .class-div {
