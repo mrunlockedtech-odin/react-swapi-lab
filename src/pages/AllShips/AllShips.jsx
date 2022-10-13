@@ -35,10 +35,10 @@ const AllShips = () => {
         <div className="nav-buttons">
         <p>Page: {pageNumber} of {Math.ceil(shipData.count/10)}</p>
         </div>
-        <div className="icon-container">
+        <div className="ship-container">
           {starShips.map(starship =>
             <Link to='/starship' state={{ starship }} key={starship.name}>
-              <div className="class-div">
+              <div className="shipName-div">
                 {starship.name}
               </div>
             </Link>
